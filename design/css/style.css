@@ -1,0 +1,273 @@
+/* CSS Document */
+body
+{
+    background-color:#6F605A;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    font-size:12px;
+    margin:0px auto auto auto;
+    color:#000000;
+}
+#wrap{
+    height: auto;
+    margin:auto;
+    padding-left: 17%;
+
+}
+
+.header{
+    width:900px;
+    height:181px;
+    background:url(../images/header.jpg) no-repeat center;
+}
+
+/*-----------------------------menu-------------------*/
+#menu{
+    width:628px;
+    height:30px;
+    padding:145px 0 0 10px;
+}
+#menu ul{
+    display:block;
+    list-style:none;
+    padding:9px 0 0 10px;
+    margin:0px;
+}
+#menu ul li{
+    display:inline;
+    padding:0px;
+    margin:0px;
+    height:20px;
+}
+#menu ul li a{
+    height:27px;
+    display:block;
+    padding:0px 10px 0 10px;
+    margin:0 4px 0 4px;
+    _margin:0 2px 0 2px;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    color:#fff;
+    font-size:13px;
+    line-height:25px;
+}
+#menu ul li.selected a{
+    height:27px;
+    display:block;
+    padding:0px 10px 0 10px;
+    margin:0 5px 0 5px;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    color:#f7a849;
+    font-size:13px;
+    line-height:25px;
+}
+#menu ul li a:hover{
+    color:#f7a849;
+}
+
+/*------------------------------------center content--------------------*/
+.center_contents {
+    width: 880px;
+    float: left;
+    padding: 20px 0 20px 20px;
+    background-color:#FFFFFF;
+    min-height: 325px;
+}
+.title {
+    color: #734633;
+    padding: 0px;
+    font-size: 19px;
+    margin: 10px 0 10px 0;
+}
+/*---------------contact_form------------------*/
+
+.error{
+    background-color: #e13300;
+    padding: 5px;
+    color: white;;
+    border-radius: 10px;
+    float:right;
+    margin-left: 10px;
+    margin-top: -5;
+
+}
+.searcherror{
+    background-color: #e13300;
+    padding: 5px;
+    color: white;;
+    border-radius: 10px;
+
+}
+.contact_form {
+    float: left;
+    padding: 25px;
+    margin: 5 0 0 30%;
+    _margin: 20px 0 0 5px;
+    background-color: #1e8c99;
+    border-radius: 5px;
+    box-shadow: #005702;
+}
+
+.form_row{
+
+    clear:both;
+    padding:10px 0 10px 0;
+    _padding:5px 0 5px 0;
+    color:white;
+}
+label.contact{
+    width:75px;
+    float:left;
+    font-size:12px;
+    text-align:right;
+    padding:4px 5px 0 0;
+    color: #333333;
+}
+
+.userdetails{
+    float:left;
+    font-size:12px;
+    text-align:right;
+    padding:4px 5px 0 0;
+    color: #FFFFFF;
+}
+
+.form_row input{
+    width:150px;
+    height:18px;
+    background-color:#fff;
+    color:#000000;
+    border:1px #DFDFDF solid;
+    float:right;
+}
+
+.form_row textarea{
+    margin-bottom: 10px;
+    color:#000000;
+    border:1px #DFDFDF solid;
+    float:right;
+}
+
+.button {
+    width: 71px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #e13300;
+    background-color: white;
+}
+
+ .button:hover{
+    color:white ;
+    background-color: #e13300;
+}
+
+
+.spanform
+{
+    text-align: left;
+    display: table-cell;
+    min-width: 10px;
+    padding-right: 10px;
+}
+
+.book{
+    width:757px;
+    height:171px;
+    padding: 20px;
+    margin: 5px 0px 0px 30px;
+    box-shadow: 3px 3px 5px 2px #E6B1B1;
+    background-color: #1e8c99;
+    border-radius: 5px;
+    color: white;
+    line-height: 1.6;
+    }
+
+.bkdetail{
+    background: #5E2743;
+    padding: 2px 3px 1px;
+    border-color: white;
+    border-bottom-style: double;
+}
+
+.cartinfo {
+    background: #5E2743;
+    padding: 2px 3px 1px;
+    border-color: #0F9FB3;
+    border-bottom-style: double;
+    border-bottom-width: 5px;
+    margin-right: 20px;
+    margin-right: 19.631%;
+    padding-left: 29%;
+    color: white;
+    font-weight: bolder;
+}
+
+#bkdetailimg img{
+    border-color: white;
+    border-width: thin;
+    border-style: double;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.costbutton{
+    background-color: white;
+    padding: 5px;
+    color: #e13300 ;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 3px 3px 22px 3px #E6B1B1
+}
+.costbutton:hover{
+    background-color: #e13300 ;
+    padding: 5px;
+    color:white ;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 3px 3px 22px 3px white;
+}
+
+.deletebutton{
+    background-color: white;
+    padding: 5px;
+    color: #e13300 ;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 3px 3px 22px 3px #E6B1B1
+}
+
+.deletebutton:hover{
+    background-color: #e13300 ;
+    padding: 5px;
+    color:white ;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 3px 3px 22px 3px white;
+}
+/*---------------footer------------------------*/
+#footer{
+    height:100px;
+    width: 900px;
+    clear: both;
+    background:url(../images/footer.jpg) no-repeat bottom;
+}
+#footer .copyright{
+    float:right;
+    padding: 8.5% 1% 0 0;
+    text-decoration: none;
+    color: white
+}
+#footer a{
+    float:right;
+    padding: 8.5% 2% 0 0;
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover{
+    color: #7fff00;
+}

@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+body {
+	font-family:chunk;;
+	background-color: #770F05;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+@font-face {
+	font-family: acknowledgement;
+	src: url("lobster_1.3.ttf");
+}
+
+@font-face {
+	font-family: chunk;
+	src: url("chunkfive.ttf");
+}
+@font-face {
+	font-family: alexbrush;
+	src: url("alexbrush-regular-otf.ttf");
+}
+
+section, footer, aside, article, figure {
+	display: block;
+}
+
+header {
+	background-color: #1C2329;
+	width:100%;	
+}
+
+
+#menubar{
+	
+}
+
+#logo{
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+}
+
+#menubar nav a{
+	font-family:acknowledgement;
+	color: white;
+	text-decoration: none;
+	padding: 0.2% 0.5% 0% 0.5%;
+	font-size: x-large;
+
+}
+
+nav a#currentpage{
+	text-decoration:overline;
+}
+
+#menubar nav a:hover{
+	background-color: red;	
+}
+
+#extramenus{
+	background-color: #FFF;
+	padding:	
+}
+
+#extramenus nav {	
+	background-color: #FFF;	
+	text-align: right;
+	margin-right: 3%;
+}
+
+#extramenus nav a{	
+	font-family:chunk;
+	color: #000;
+	text-decoration: none;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+
+#extramenus nav a:hover{
+	color: red;	
+}
+
+#body{
+	margin-left:17%;
+	margin-top:0.5%;
+	display: -webkit-box;
+	overflow:hidden;
+}
+
+#movies{
+	display: -webkit-box;
+	width:909px;
+	overflow:hidden;
+    height:100%;
+}
+
+
+#left_bar{
+	background-image:url("../images/left_bar.png");
+	height:452px;
+	width:25px;
+}
+
+#left_bar:hover{
+	background-image:url("../images/left_bar_hover.png");
+}
+
+#right_bar{
+	background-image:url("../images/right_bar.png");
+	height:452px;
+	width:25px;
+}
+
+#right_bar:hover{
+	background-image:url("../images/right_bar_hover.png");
+}
+
+.movie{
+/**	display:none;*/
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+}
+
+.button{
+	padding:0.5%;
+	font-family:chunk;
+	font-size:inherit;
+	background-color: white;
+	border:0px;
+}
+
+.button:hover{
+	background-color:#ff0000;
+	color: white;
+}
+
+.detail {
+    color: white;
+    text-decoration: underline;
+}
+
+#userbuttons{
+    margin-left: 2%;
+}
+
+#userbuttons a{
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+#userbuttons a:hover{
+    color: red;
+    background-color: white;
+}
+
+address{
+	color:white;
+	text-align: center;
+	}
+
+address a{
+	font-family: acknowledgement;
+	color:red;
+	text-align: center;	
+	font-style: normal;
+	font-size: larger;
+}
+
+address a:hover{
+	color:white;
+}
+
+	
+footer{
+	clear:both;
+	position: initial;	
+	bottom: 0;
+	padding: 1%;
+	text-align: center;	
+	background-color: #1C2329;
+	font-family: chunk;
+	color: white;
+}

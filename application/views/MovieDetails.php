@@ -22,7 +22,12 @@
                                      <span class=$ecq detail $ecq>ShowTimes:</span> $showtimes <br/><br/>
                                      <span class=$ecq detail $ecq>Release Date:</span> $date <br/><br/>
                                </div>
-                               </article>\n");
+
+                               ");
+                        //adding Buttons for Logged in users
+                        require_once("application/views/UserButtons.php");
+
+                        echo "</article>\n";
 
               ?>
               <noscript>Please Turn On Your Javascript To View The Content Of This Page</noscript>
