@@ -8,14 +8,13 @@ class AddtoCart_Controller extends CI_Controller
      function index(){
              //resumes current session
              session_start();
-             //get bookid and quantity
-             $bookid = $this->input->post('book');
-             $quantity = $this->input->post('quantity');
-             $this->load->model("BookDetail_Model");
-             $details = $this->BookDetail_Model->get_books_details($bookid);
-             $cart=array_merge($details,array("quantity"=>$quantity));
-             //replace quantity in sesssion and send data to book details page
-             $_SESSION['cart'.$bookid]=$cart;
-             $this->load->View("BookDetail", $details);
+             //get movie_id
+             $movieid = $this->input->post('movie');
+             $this->load->model("moviedetail_model");
+             $details = $this->moviedetail_model->get_movie_details($movieid);
+             //create a specific cart and send data to movie details page
+
+             $_SESSION["movie$movieid"]=$details;
+             $this->load->View("MovieDetails", $details);
      }
 }

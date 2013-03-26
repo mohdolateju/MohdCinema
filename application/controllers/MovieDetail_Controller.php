@@ -24,7 +24,7 @@ class MovieDetail_Controller extends CI_Controller
             header("Location:".$page);
             }else{
             //if the movie variable isn't set redirect the user back to the home page
-                header("Location: /");
+                header("Location: Home");
             }
         }
 

@@ -8,14 +8,11 @@ class RemoveItem_Controller extends CI_Controller
            //resume session
            session_start();
            //get bookid and quantity
-           $book = $this->input->post('book');
-           $quantity = $this->input->post('quantity');
-           $this->load->model("BookDetail_Model");
-           $details = $this->BookDetail_Model->get_books_details($book);
-           $cart=array_merge($details,array("quantity"=>$quantity));
+           $movie = $this->input->post('movie');
+           $this->load->model("moviedetail_model");
            //remove cart from sesssion and Loads the EditCart Page
-           unset ($_SESSION['cart'.$book]);
-           $this->load->view("EditCart");
+           unset ($_SESSION['movie'.$movie]);
+           header("Location: MovieDetail?movie=$movie");
        }
 
 }

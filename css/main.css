@@ -60,7 +60,7 @@ nav a#currentpage{
 
 #extramenus{
 	background-color: #FFF;
-	padding:	
+    padding-top: .2%;
 }
 
 #extramenus nav {	
@@ -177,7 +177,7 @@ address a:hover{
 	
 footer{
 	clear:both;
-	position: initial;	
+	position: relative;
 	bottom: 0;
 	padding: 1%;
 	text-align: center;	

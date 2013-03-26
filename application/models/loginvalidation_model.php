@@ -9,10 +9,10 @@ class loginvalidation_model extends CI_Model
      * @param UserId and Password
      * @return A Single User's Details as An Array
      */
-    public function get_userdetails($userid,$password){
+    public function get_userdetails($username,$password){
         $this->load->database();
-        $sql = "SELECT * FROM users  WHERE user_id=? AND password=?";
-        $query=$this->db->query($sql, array($userid, $password));
+        $sql = "SELECT * FROM customers  WHERE username=? AND password=?";
+        $query=$this->db->query($sql, array($username, $password));
         $userdetails = $query->row_array();
         $this->db->close();
         return $userdetails;

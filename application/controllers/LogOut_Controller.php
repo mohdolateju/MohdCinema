@@ -10,6 +10,6 @@ class LogOut_Controller extends CI_Controller
         session_start();
         //delete all session variables and load the Website Homepage
         session_unset();
-        $this->load->view("index");
+        header("Location: Home");
     }
 }

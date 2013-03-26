@@ -41,11 +41,10 @@
 $route['default_controller'] = "Home_Controller";
 $route['404_override'] = '';
 $route['Register'] = "Register_Controller";
-$route['LoginUser'] = "LoginValidation_Controller";
+$route['Login'] = "LoginValidation_Controller";
 $route['RegisterAction'] = "RegisterValidation_Controller";
 $route['BrowseBooks'] = "BrowseBooks_Controller";
 $route['BookDetail'] = "BookDetail_Controller";
-//$route['Search'] = "SearchBooks_Controller";
 $route['SearchMovies'] = "SearchMovies_Controller";
 $route['RecentMovies'] = "RecentMovies_Controller";
 $route['AllMovies'] = "AllMovies_Controller";
@@ -67,6 +66,7 @@ $route['UpdateAuthor']="UpdateAuthor_Controller";
 $route['UpdateAuthorDetails']="UpdateAuthorDetails_Controller";
 $route['SearchAuthor']="SearchAuthor_Controller";
 $route['DeleteAuthor']="DeleteAuthor_Controller";
+$route['UserDetails']="UserDetails_Controller";
 $route['Home']="Home_Controller";
 
 
