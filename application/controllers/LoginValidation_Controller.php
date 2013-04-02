@@ -6,6 +6,7 @@ class LoginValidation_Controller extends CI_Controller{
     /**Default Code Iginter Controller Method*/
     function index()
     {
+        $usertype = $this->input->post('usertype');
         //Initializing the form validation library and setting rules for the user id and password field
         $this->load->library('form_validation');
         //Error Delimiter Method Used so that the error messages can be styled
@@ -17,7 +18,7 @@ class LoginValidation_Controller extends CI_Controller{
         //Loading the Model for this Controller
         $this->load->model('LoginValidation_Model');
         //Method to Get User Details from form input
-        $userdata=$this->get_userdetails();
+        $userdata=$this->get_userdetails($usertype);
 
 
         //If Error Occurs in Form Validation return to Login Page
@@ -33,8 +34,6 @@ class LoginValidation_Controller extends CI_Controller{
             $this->load->view('Login',$data);
         }
         //If User is a costumer send user information to  User Details page and create a new session with userid and type
-        else
-        {
             session_start();
             $_SESSION['customer_id']= $userdata['customer_id'];
             $_SESSION['firstname']= $userdata['firstname'];
@@ -44,17 +43,7 @@ class LoginValidation_Controller extends CI_Controller{
             $_SESSION['type']="customer";
             $this->load->view('UserDetails');
 
-        }
-        //If User is an admin send user information to  Admin page and create a new session with userid and type
-        if($userdata['type']=="admin")
-        {
-            session_start();
-            $_SESSION['userid']= $userdata['user_id'];
-            $_SESSION['type']= $userdata['type'];
-            //Get All Authors from database to be used to Add New Book in the Admin Page
-            $userdata['authors']=$this->LoginValidation_Model->get_all_authors();
-            $this->load->view('AdminDetails',$userdata);
-        }
+
 
     }
 
@@ -62,12 +51,15 @@ class LoginValidation_Controller extends CI_Controller{
      *Gets User Details from the Login Form
      *@returns User Details as Array, Null if not a user
      */
-    function get_userdetails(){
-        $this->load->library('form_validation');
-        $username = $this->input->post('username');
-        $password = $this->input->post('password');
-        $UserDetails=$this->LoginValidation_Model->get_userdetails($username,$password);
-        return $UserDetails;
+    function get_userdetails($usertype){
+
+        //if($usertype=="customer"){
+            $this->load->library('form_validation');
+            $username = $this->input->post('username');
+            $password = $this->input->post('password');
+            $UserDetails=$this->LoginValidation_Model->get_userdetails_from_customers($username,$password);
+            return $UserDetails;
+       // }
     }
 }
 ?>

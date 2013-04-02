@@ -2,32 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/Register.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\EditCart.php" afterPath="$PROJECT_DIR$/application/views/EditCart.php.old" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Reservations_Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/Reservations.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\AddNewAuthor_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\AddNewBook_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\BookDetail_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\BrowseBooks_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\DeleteAuthor_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\DeleteBook_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\EditBooks_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\SearchAuthor_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\SearchBooks_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\SearchResult_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\UpdateAuthorDetails_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\UpdateAuthor_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\UpdateBookDetails_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\UpdateBook_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\UpdateCart_Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\addnewauthor_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\addnewbook_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\bookdetail_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\browsebooks_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\deleteauthor_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\deletebook_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\editbooks_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\searchauthor_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\searchresult_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\updateauthor_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\updateauthordetails_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\updatebook_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\updatebookdetails_model.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\AddAuthor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\AdminDetails.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\BookDetail.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\BrowseBooks.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\EditBooks.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\SearchBooks.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\SearchResult.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\UpdateAuthor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\UpdateBook.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\10Larsson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\11Rowling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\12Rowling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\13Brown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\14Stine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\15Livingston.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\16Seibel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\17Beard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\1Rowling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\2Applegate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\3Larsson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\4Brown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\5Stine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\6Brown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\7Rowling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\8Stine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\book_images\9Larsson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\design\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\design\images\footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\design\images\header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\design\js\jquery-1.8.3.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Home_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/Home_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/LogOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/LogOut_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Register_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/Register_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/loginvalidation_model.php" afterPath="$PROJECT_DIR$/application/models/loginvalidation_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/registervalidation_model.php" afterPath="$PROJECT_DIR$/application/models/registervalidation_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/BottomHeader.php" afterPath="$PROJECT_DIR$/application/views/BottomHeader.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/CheckOut.php" afterPath="$PROJECT_DIR$/application/views/CheckOut.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/EditCart.php" afterPath="$PROJECT_DIR$/application/views/EditCart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/ExtraMenu.php" afterPath="$PROJECT_DIR$/application/views/ExtraMenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/MovieDetails.php" afterPath="$PROJECT_DIR$/application/views/MovieDetails.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/UserButtons.php" afterPath="$PROJECT_DIR$/application/views/UserButtons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/UserDetails.php" afterPath="$PROJECT_DIR$/application/views/UserDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,64 +97,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ExtraMenu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/ExtraMenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="53" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-14.307693">
-              <folding>
-                <marker date="1364262813714" expanded="true" signature="893:1214" placeholder="..." />
-                <marker date="1364262813714" expanded="true" signature="893:1217" placeholder="..." />
-                <marker date="1364262813714" expanded="true" signature="893:1312" placeholder="..." />
-                <marker date="1364262813714" expanded="true" signature="893:938" placeholder="..." />
-                <marker date="1364262813714" expanded="true" signature="967:1069" placeholder="..." />
-                <marker date="1364262813714" expanded="true" signature="1347:1471" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditBooks.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/EditBooks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditCart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/EditCart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="12" selection-start="1213" selection-end="1213" vertical-scroll-proportion="3.1923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDetails_Controller.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="80" selection-end="81" vertical-scroll-proportion="0.1994135">
-              <folding>
-                <element signature="n#index#0;n#UserDetails_Controller#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="58" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-15.038462">
-              <folding>
-                <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,22 +113,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php" />
-        <option value="$PROJECT_DIR$/application/views/UserDetails.php" />
-        <option value="$PROJECT_DIR$/application/views/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
-        <option value="$PROJECT_DIR$/application/views/UserButtons.php" />
-        <option value="$PROJECT_DIR$/application/views/AllMovies.php" />
-        <option value="$PROJECT_DIR$/application/views/RecentMovies.php" />
-        <option value="$PROJECT_DIR$/application/views/SearchMovies.php" />
-        <option value="$PROJECT_DIR$/application/views/EditCart.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/models/loginvalidation_model.php" />
+        <option value="$PROJECT_DIR$/application/views/Login.php" />
+        <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
+        <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/UserButtons.php" />
+        <option value="$PROJECT_DIR$/application/views/BottomHeader.php" />
+        <option value="$PROJECT_DIR$/application/views/MovieDetails.php" />
+        <option value="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Reservations_Controller.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/Reservations.php" />
         <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
-        <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
         <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/ExtraMenu.php" />
+        <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
       </list>
     </option>
   </component>
@@ -196,34 +185,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,24 +274,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -346,9 +289,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\MohdCinema\application\models" />
       <recent name="C:\wamp\www\MohdCinema\application\views" />
       <recent name="C:\wamp\www\MohdCinema\application\controllers" />
+      <recent name="C:\wamp\www\MohdCinema\application\models" />
       <recent name="C:\wamp\www\MohammedsBookstore\application\errors" />
       <recent name="C:\wamp\www\MohammedsBookstore" />
     </key>
@@ -433,12 +376,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30151516" sideWeight="0.21672355" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30151516" sideWeight="0.67064846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31136364" sideWeight="0.67235494" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39761093" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28560606" sideWeight="0.41267124" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -448,6 +390,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -509,61 +452,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php</url>
-          <line>11</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php</url>
-          <line>23</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>31</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/registervalidation_model.php</url>
           <line>15</line>
           <option name="timeStamp" value="86" />
@@ -584,38 +472,13 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>57</line>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>52</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>50</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>54</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php</url>
-          <line>59</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/registervalidation_model.php</url>
           <line>22</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -625,53 +488,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php</url>
-          <line>16</line>
+          <line>20</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php</url>
-          <line>17</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>31</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>29</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>19</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
           <line>21</line>
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>22</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="109" />
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
@@ -699,154 +527,217 @@
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="115" />
+          <url>file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="116" />
+          <url>file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
-          <line>34</line>
-          <option name="timeStamp" value="117" />
+          <url>file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>69</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>76</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
           <line>41</line>
-          <option name="timeStamp" value="118" />
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
-          <line>44</line>
-          <option name="timeStamp" value="119" />
+          <url>file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="120" />
+      <option name="time" value="152" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/config/smileys.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="11" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Register_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="154" selection-end="154" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <element signature="e#108#154#0" expanded="true" />
+            <element signature="n#index#0;n#Register_Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="892" selection-end="892" vertical-scroll-proportion="-11.769231">
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.20921305">
+          <folding>
+            <marker date="1364915320414" expanded="false" signature="1367:1415" placeholder="..." />
+            <marker date="1364915320414" expanded="true" signature="1417:1507" placeholder="..." />
+            <element signature="e#2112#2224#0" expanded="true" />
+            <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/BottomHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="54" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-13.846154">
+          <folding>
+            <element signature="e#909#1161#0" expanded="true" />
+            <element signature="e#1189#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/MovieDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="88" selection-start="1818" selection-end="1865" vertical-scroll-proportion="-4.9615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.66853935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Reservations_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="8" selection-start="2161" selection-end="2169" vertical-scroll-proportion="-13.076923">
+        <state line="57" column="36" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.67228466">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/AllMovies.php">
+    <entry file="file://$PROJECT_DIR$/application/views/UserButtons.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="470" selection-end="470" vertical-scroll-proportion="-5.8846154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/SearchMovies_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="678" selection-end="678" vertical-scroll-proportion="-12.423077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="174.57692" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="29" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="82" selection-start="507" selection-end="630" vertical-scroll-proportion="2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/registervalidation_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="515" selection-end="515" vertical-scroll-proportion="0.07677902">
+        <state line="7" column="65" selection-start="401" selection-end="409" vertical-scroll-proportion="0.2284069">
           <folding>
-            <element signature="e#184#291#0" expanded="true" />
-            <element signature="e#603#751#0" expanded="true" />
-            <element signature="n#set_new_customer#0;n#registervalidation_model#0;n#!!top" expanded="true" />
+            <marker date="1364929899802" expanded="true" signature="234:601" placeholder="..." />
+            <marker date="1364929899802" expanded="true" signature="234:437" placeholder="..." />
+            <marker date="1364929899802" expanded="true" signature="522:533" placeholder="..." />
+            <marker date="1364929899802" expanded="true" signature="761:1018" placeholder="..." />
+            <marker date="1364929899802" expanded="true" signature="942:953" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+    <entry file="file://$PROJECT_DIR$/application/views/Reservations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="2728" selection-end="2728" vertical-scroll-proportion="-17.26923">
+        <state line="50" column="8" selection-start="3109" selection-end="3109" vertical-scroll-proportion="0.728">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.8285713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="58" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-15.038462">
-          <folding>
-            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/ExtraMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="53" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-14.307693">
-          <folding>
-            <marker date="1364262813714" expanded="true" signature="893:1214" placeholder="..." />
-            <marker date="1364262813714" expanded="true" signature="893:1217" placeholder="..." />
-            <marker date="1364262813714" expanded="true" signature="893:1312" placeholder="..." />
-            <marker date="1364262813714" expanded="true" signature="893:938" placeholder="..." />
-            <marker date="1364262813714" expanded="true" signature="967:1069" placeholder="..." />
-            <marker date="1364262813714" expanded="true" signature="1347:1471" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/EditBooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/EditCart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="1213" selection-end="1213" vertical-scroll-proportion="3.1923077">
+        <state line="14" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.55140185">
+        <state line="14" column="0" selection-start="387" selection-end="387" vertical-scroll-proportion="0.1741573">
           <folding>
-            <element signature="n#voucher_exist#0;n#Checkout_Model#0;n#!!top" expanded="true" />
-            <element signature="e#475#623#0" expanded="true" />
+            <element signature="n#getMaxSeatNo#0;n#Checkout_Model#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxScreenNo#0;n#Checkout_Model#0;n#!!top" expanded="true" />
+            <element signature="e#1211#1359#0" expanded="true" />
+            <element signature="n#store_voucher#0;n#Checkout_Model#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="80" selection-end="81" vertical-scroll-proportion="0.1994135">
+        <state line="57" column="0" selection-start="2246" selection-end="2246" vertical-scroll-proportion="-3.4230769">
           <folding>
-            <element signature="n#index#0;n#UserDetails_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/ExtraMenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="60" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.39513108">
+          <folding>
+            <marker date="1364941183441" expanded="true" signature="893:1312" placeholder="..." />
+            <marker date="1364941183441" expanded="true" signature="928:966" placeholder="..." />
+            <marker date="1364941183441" expanded="true" signature="967:1069" placeholder="..." />
+            <marker date="1364941183441" expanded="true" signature="1347:1471" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="17" selection-start="3230" selection-end="3230" vertical-scroll-proportion="0.76391554">
+          <folding />
         </state>
       </provider>
     </entry>

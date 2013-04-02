@@ -9,7 +9,6 @@
     var moviesDisplayed=3;
     var globalIndex=1;
 
-
     function sliderforward(){
 
         var index=1;
@@ -38,5 +37,17 @@
 
     }
 
+    function soemthing(no){
+
+    }
+
+    window.onload=function(){
+    $("select").change(function () {
+        var me=$('select').find(":selected").attr("alt");
+        $("#timingNo").attr("value",me);
+        //alert('Handler for .change() called.');
+    })
+    .change();
+    };
 </script>
 </head>

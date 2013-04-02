@@ -18,12 +18,23 @@
                                      <span class=$ecq detail $ecq>Price:</span> $price AED<br/><br/>
                                      <span class=$ecq detail $ecq>Director:</span> $firstname $lastname<br/><br/>
                                      <span class=$ecq detail $ecq>Description:</span> $description<br/><br/>
-                                     <span class=$ecq detail $ecq>Genre:</span> $genre <br/><br/>
-                                     <span class=$ecq detail $ecq>ShowTimes:</span> $showtimes <br/><br/>
-                                     <span class=$ecq detail $ecq>Release Date:</span> $date <br/><br/>
-                               </div>
+                                     <span class=$ecq detail $ecq>Genre:</span> $genre <br/><br/>");
 
-                               ");
+
+
+                        print("
+                                     <span class=$ecq detail $ecq>ShowTimes:</span>
+                                      <select name='showtiming'>");
+
+                        $showtimeArray=explode(",",$showtimes);
+                        $count=1;
+                        foreach($showtimeArray as $showtime){
+                            $displaytime=date("g:i a, l j F, Y", strtotime($showtime) );
+                            print("<option alt='$count'>$displaytime</option>");
+                            $count++;
+                        }
+                        print("</select><br/><br/><span class=$ecq detail $ecq>Release Date:</span> $date <br/><br/>
+                               </div>");
                         //adding Buttons for Logged in users
                         require_once("application/views/UserButtons.php");
 

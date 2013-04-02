@@ -5,6 +5,7 @@
             if(!isset($_SESSION['movie'.$movie_id])){
                     print("<form name=\"cart\" method=\"post\" action=\"AddtoCart\">
                                       <input type=\"hidden\" name=\"movie\" value=\"{$movie_id}\"/>
+                                      <input type=\"hidden\" id='timingNo' name=\"timingNo\" value=\"1\"/>
                                       <input type=submit class='button' style='width: auto' value=\"Add to Cart\"/>
                                     </form><br>");
             }

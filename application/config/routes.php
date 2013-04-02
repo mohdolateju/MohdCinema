@@ -43,31 +43,19 @@ $route['404_override'] = '';
 $route['Register'] = "Register_Controller";
 $route['Login'] = "LoginValidation_Controller";
 $route['RegisterAction'] = "RegisterValidation_Controller";
-$route['BrowseBooks'] = "BrowseBooks_Controller";
-$route['BookDetail'] = "BookDetail_Controller";
 $route['SearchMovies'] = "SearchMovies_Controller";
 $route['RecentMovies'] = "RecentMovies_Controller";
 $route['AllMovies'] = "AllMovies_Controller";
 $route['MovieDetail'] = "MovieDetail_Controller";
-$route['Result'] = "SearchResult_Controller";
 $route['AddtoCart'] = "AddtoCart_Controller";
 $route['EditCart'] = "EditCart_Controller";
 $route['UpdateCart'] = "UpdateCart_Controller";
 $route['RemoveItem'] = "RemoveItem_Controller";
 $route['Checkout'] = "CheckOut_Controller";
-$route['AddNewAuthor']= "AddNewAuthor_Controller";
-$route['AddNewBook']= "AddNewBook_Controller";
-$route['EditBooks'] = "EditBooks_Controller";
 $route['LogOut'] = "LogOut_Controller";
-$route['DeleteBook'] = "DeleteBook_Controller";
-$route['UpdateBook'] = "UpdateBook_Controller";
-$route['UpdateBookDetails'] = "UpdateBookDetails_Controller";
-$route['UpdateAuthor']="UpdateAuthor_Controller";
-$route['UpdateAuthorDetails']="UpdateAuthorDetails_Controller";
-$route['SearchAuthor']="SearchAuthor_Controller";
-$route['DeleteAuthor']="DeleteAuthor_Controller";
 $route['UserDetails']="UserDetails_Controller";
 $route['Home']="Home_Controller";
+$route['Reservations']="Reservations_Controller";
 
 
 
