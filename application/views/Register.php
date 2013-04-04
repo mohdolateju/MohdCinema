@@ -1,8 +1,8 @@
-    <?php require_once("application/views/TopHeader.php")?>
-		<title>Welcome :: Mohammed's Cinema</title>
-    <?php require_once("application/views/BottomHeader.php")?>
-    <?php require_once("application/views/MainMenu.php")?>
-    <?php require_once("application/views/ExtraMenu.php")?>
+    <?php require_once("application/views/pageComp/TopHeader.php")?>
+		<title>Register :: Mohammed's Cinema</title>
+    <?php require_once("application/views/pageComp/BottomHeader.php")?>
+    <?php require_once("application/views/pageComp/MainMenu.php")?>
+    <?php require_once("application/views/pageComp/ExtraMenu.php")?>
         <section id="body" style="margin-top: 2%;margin-left: 35%;min-height: 450px;">
             <form name="register" method="post" action="RegisterAction">
                 <table >
@@ -45,4 +45,4 @@
                 <input type="submit" class="button" style="margin-left:145px" value="Submit"/>
             </form>
 		</section>
-    <?php require_once("application/views/EndPage.php")?>
+    <?php require_once("application/views/pageComp/EndPage.php")?>

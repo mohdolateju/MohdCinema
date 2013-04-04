@@ -1,16 +1,18 @@
 <?php
 /**
- * This Controller Redirects a User to The User Home page or Website Homepage
+ * This Controller gets all movies from the database and displays
  */
 class AllMovies_Controller extends CI_Controller{
 
     /**Default Controller Method*/
     public function index(){
        //resume session
-       //session_start();
+       session_start();
        //load Controller specific Model
        $this->load->model("allmovies_model");
+       //get all movies from database
        $data['movies']=$this->allmovies_model->get_all_movies();
+       //load movies into the movies
        $this->load->view("allMovies",$data);
     }
 }

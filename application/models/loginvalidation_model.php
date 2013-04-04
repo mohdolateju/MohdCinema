@@ -17,28 +17,6 @@ class loginvalidation_model extends CI_Model
         $this->db->close();
         return $userdetails;
     }
-
-    public function get_userdetails_from_admin($username,$password){
-        $this->load->database();
-        $sql = "SELECT * FROM admin  WHERE username=? AND password=?";
-        $query=$this->db->query($sql, array($username, $password));
-        $userdetails = $query->row_array();
-        $this->db->close();
-        return $userdetails;
-    }
-
-    /**
-     * Gets All the Book Authors
-     * @return All the Book Authors
-     */
-    public function get_all_authors(){
-        $this->load->database();
-        $sql = "SELECT * FROM authors";
-        $query=$this->db->query($sql);
-        $authors = $query->result_array();
-        $this->db->close();
-        return $authors;
-    }
 }
 
 ?>

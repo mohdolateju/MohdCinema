@@ -52,14 +52,11 @@ class LoginValidation_Controller extends CI_Controller{
      *@returns User Details as Array, Null if not a user
      */
     function get_userdetails($usertype){
-
-        //if($usertype=="customer"){
             $this->load->library('form_validation');
             $username = $this->input->post('username');
             $password = $this->input->post('password');
             $UserDetails=$this->LoginValidation_Model->get_userdetails_from_customers($username,$password);
             return $UserDetails;
-       // }
     }
 }
 ?>

@@ -55,7 +55,6 @@ $route['Checkout'] = "CheckOut_Controller";
 $route['LogOut'] = "LogOut_Controller";
 $route['UserDetails']="UserDetails_Controller";
 $route['Home']="Home_Controller";
-$route['Reservations']="Reservations_Controller";
 
 
 

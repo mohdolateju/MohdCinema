@@ -38,7 +38,7 @@ if (defined('ENVIRONMENT'))
 	
 		case 'testing':
 		case 'production':
-			error_reporting(1);
+			error_reporting(0);
 		break;
 
 		default:
@@ -47,7 +47,6 @@ if (defined('ENVIRONMENT'))
 }
 
 /*
- *---------------------------------------------------------------
  * SYSTEM FOLDER NAME
  *---------------------------------------------------------------
  *

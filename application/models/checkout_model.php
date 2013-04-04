@@ -1,7 +1,8 @@
 <?php
-
+/**Model used to CheckOut and Reserve Movies*/
 class Checkout_Model extends CI_Model
 {
+    /**Finds out if a voucher exists if it exists it results true if it does it returns true*/
     public function voucher_exist($voucher)
     {
         $this->load->database();
@@ -18,6 +19,9 @@ class Checkout_Model extends CI_Model
         }
 
     }
+
+    /**The the maximum seat number for a particular screen and Movie
+     @param Movie ID, Screen Number*/
     public function getMaxSeatNo($movie_id,$screen)
     {
         $this->load->database();
@@ -27,12 +31,13 @@ class Checkout_Model extends CI_Model
                 AND screen_no=?";
         $query=$this->db->query($sql,array($movie_id,$screen));
         $maxSeatNo = $query->result_array()[0];
-
         return $maxSeatNo["max(seat_no)"];
-
-
     }
 
+
+    /**The the maximum seat number for a particular movie
+    @param Movie ID
+    @return  screen number*/
     public function getMaxScreenNo($movie_id)
     {
         $this->load->database();
@@ -47,7 +52,7 @@ class Checkout_Model extends CI_Model
 
     }
 
-    /**Creates A New customer in the database
+    /**Creates A New voucher in the voucher_nos and reservations database
      * @param customer Id,customer Firstname, customer Lastname, customer Email, customer Password
      */
     function store_voucher($voucher_no, $movie_id,$customer_id,$seat,$selectedtime,$screen){

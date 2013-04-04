@@ -1,6 +1,7 @@
 <header id="extramenus">
     <?php
-    session_start();
+
+    //If type variable in the session is set that means a session has been created and user is logged in
     if(isset($_SESSION['type'])){
         static $totalquantity=0;
         static $totalcost=0;
@@ -9,12 +10,14 @@
         //Adds up all the number of movies and total prices and the total quantity of books
         foreach($_SESSION as $cart){
 
+            //Do not iterate if the content of the global session is the user information
             if($cart==$_SESSION['customer_id']||$cart==$_SESSION['type']||$cart==$_SESSION['firstname']
                 ||$cart==$_SESSION['lastname']
                 ||$cart==$_SESSION['email']||$cart==$_SESSION['username']||$cart==$_SESSION['type']){
 
-                //Do not iterate if the content of the global session is the user information
+
             }else{
+                //sum up all the prices
                     $totalcost+=$cart['price'];
                     $booknum++;
                 }
@@ -33,6 +36,7 @@
                     <a href=\"LogOut\">Log Out</a>
               </nav>");
     }else{
+        //print out normal links if the user is not logged in
         print("<nav>
                     <a href=\"Login\">Log In</a>
                     <a href=\"Register\">Register</a>

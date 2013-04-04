@@ -1,14 +1,15 @@
-    <?php require_once("application/views/TopHeader.php")?>
+    <?php require_once("application/views/pageComp/TopHeader.php")?>
 		<title>All Movies :: Mohammed's Cinema</title>
-    <?php require_once("application/views/BottomHeader.php")?>
-    <?php require_once("application/views/MainMenu.php")?>
-    <?php require_once("application/views/ExtraMenu.php")?>
+    <?php require_once("application/views/pageComp/BottomHeader.php")?>
+    <?php require_once("application/views/pageComp/MainMenu.php")?>
+    <?php require_once("application/views/pageComp/ExtraMenu.php")?>
         <section id="body"> 
           <aside id="left_bar" onClick="sliderbackward()"></aside>  
           <section id="movies">
               <?php
+                    //For each movie sent from the controller, display the poster of the image
                     foreach($movies as $movie){
-                        $ecq="\"";
+                        $ecq="\""; // Used to replace return carriage quote
                         print("<article id=$ecq"."movie".$movie['movie_id']."$ecq
                                     class=$ecq"."movie"."$ecq>
                                     <a href=$ecq"."MovieDetail" . "?movie=" . $movie['movie_id'] .
@@ -24,4 +25,4 @@
           </section>
           <aside id="right_bar" onClick="sliderforward()"></aside>     	          	          
 		</section>
-    <?php require_once("application/views/EndPage.php")?>
+    <?php require_once("application/views/pageComp/EndPage.php")?>

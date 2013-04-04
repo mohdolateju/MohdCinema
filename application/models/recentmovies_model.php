@@ -1,6 +1,6 @@
 <?php
 /**
- *This Model is used by the Home Controller to get userdetails and authors need for the adminpage
+ *This Model returns movies in the Other of their Release Dates
  */
 class recentmovies_model extends CI_Model
 {

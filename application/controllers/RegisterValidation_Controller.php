@@ -51,7 +51,7 @@ class RegisterValidation_Controller extends CI_Controller {
         $this->load->model("RegisterValidation_Model");
         //Gets the Maximum costumer's id in the Database
         $id=$this->RegisterValidation_Model->get_max_customerid();
-        //Increamentt the max id by 1
+        //Increament the max id by 1
         $newid=(int)$id;
         $nextid=$newid+1;
         //Create new costumer in the database

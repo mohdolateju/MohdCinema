@@ -1,8 +1,8 @@
-    <?php require_once("application/views/TopHeader.php")?>
+    <?php require_once("application/views/pageComp/TopHeader.php")?>
 		<title>Search Movies :: Mohammed's Cinema</title>
-    <?php require_once("application/views/BottomHeader.php")?>
-    <?php require_once("application/views/MainMenu.php")?>
-    <?php require_once("application/views/ExtraMenu.php")?>
+    <?php require_once("application/views/pageComp/BottomHeader.php")?>
+    <?php require_once("application/views/pageComp/MainMenu.php")?>
+    <?php require_once("application/views/pageComp/ExtraMenu.php")?>
     <?php $this->load->library('form_validation');?>
     <?php $this->load->helper('url');?>
         <section id="body" style="min-height: 500px;display: block;">
@@ -57,4 +57,4 @@
             </section>
 
 		</section>
-    <?php require_once("application/views/EndPage.php")?>
+    <?php require_once("application/views/pageComp/EndPage.php")?>

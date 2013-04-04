@@ -31,6 +31,5 @@ class registervalidation_model  extends CI_Model
             'password' => $password
         );
         $this->db->insert('customers', $data);
-        //$this->db->close();
     }
 }

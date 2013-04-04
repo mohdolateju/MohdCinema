@@ -5,9 +5,6 @@
 class SearchMovies_Controller extends CI_Controller
 {
 
-        //resumes session
-        //session_start();
-        //loads SearchBooks Page
         /**Default Controller Method*/
         function index()
         {
@@ -17,6 +14,8 @@ class SearchMovies_Controller extends CI_Controller
             $this->form_validation->set_rules('searchvalue', 'Search', 'trim|required|xss_clean');
 
             //Loading Controller Defined Model SearchResult_Model
+
+            //resumes session
             session_start();
             $this->load->model("SearchMovies_Model");
 

@@ -13,7 +13,10 @@ class UserDetails_Controller extends CI_Controller{
         {
 
             $this->load->view('UserDetails');
-        } else{
+        }
+        //if not session is present redirect the user to the home page
+        else{
+
             header("Location: Home");
         }
 

@@ -1,6 +1,6 @@
 <?php
 /**
- *This Model is used by the Home Controller to get userdetails and authors need for the adminpage
+ * This Model Gets All The movies from the database
  */
 class allmovies_model extends CI_Model
 {
@@ -14,9 +14,9 @@ class allmovies_model extends CI_Model
                 FROM movies,directors
                 WHERE movies.director_id=directors.director_id";
         $query = $this->db->query($sql);
-        $books = $query->result_array();
+        $movies = $query->result_array();
         $this->db->close();
-        return $books;
+        return $movies;
 
     }
 }

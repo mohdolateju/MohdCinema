@@ -1,25 +1,27 @@
-<?php require_once("application/views/TopHeader.php")?>
+<?php require_once("application/views/pageComp/TopHeader.php")?>
     <title>Check Out :: Mohammed's Cinema</title>
-<?php require_once("application/views/BottomHeader.php")?>
-<?php require_once("application/views/MainMenu.php")?>
-<?php require_once("application/views/ExtraMenu.php")?>
+<?php require_once("application/views/pageComp/BottomHeader.php")?>
+<?php require_once("application/views/pageComp/MainMenu.php")?>
+<?php require_once("application/views/pageComp/ExtraMenu.php")?>
         <section id="body">
 
             <section id="movies" style="display: block;">
-                <div style="padding: 3%;text-align: center;background-color: gray;">You have Checked Out, Have A Wonderful Experience.
+                <div style="padding: 3%;text-align: center;background-color: gray;margin: 2%;">You have Checked Out, Have A Wonderful Experience.
                                          Print or Take note of the Ticket Number(s) To Enter the Cinema.
+                    <input type="button" class="button" value="Print" onclick="window.print()" />
                 </div>
         <?php
 
                 //Displays Each content of the Cart
                 foreach($_SESSION as $cart){
+                    //Do not display the content if is is part of the user information
                     if($cart==$_SESSION['customer_id']||$cart==$_SESSION['type']||$cart==$_SESSION['firstname']
                         ||$cart==$_SESSION['lastname']
                         ||$cart==$_SESSION['email']||$cart==$_SESSION['username']||$cart==$_SESSION['type']){
-                        //Do not display the content if is is part of the user information
+
                     }
                     else{
-                        $ecq="\"";
+                        $ecq="\""; // Used to replace return carriage quote
                         $presentMovieId=$cart['movie_id'];
                         $showtime=$selectedtimes["time$presentMovieId"];
                         print("<article
@@ -43,14 +45,12 @@
                                </div>
 
                                ");
-
+                        //removes all session variables from cart
+                        unset ($_SESSION['movie'.$presentMovieId]);
                         echo "</article>\n";
                     }
                  }
-
-                //removes all session variables
-               //session_unset();
         ?>
             </section>
         </section>
-<?php require_once("application/views/EndPage.php")?>
+<?php require_once("application/views/pageComp/EndPage.php")?>

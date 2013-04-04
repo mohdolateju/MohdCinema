@@ -1,12 +1,13 @@
-    <?php require_once("application/views/TopHeader.php")?>
+    <?php require_once("application/views/pageComp/TopHeader.php")?>
 		<title>Recent Movies :: Mohammed's Cinema</title>
-    <?php require_once("application/views/BottomHeader.php")?>
-    <?php require_once("application/views/MainMenu.php")?>
-    <?php require_once("application/views/ExtraMenu.php")?>
+    <?php require_once("application/views/pageComp/BottomHeader.php")?>
+    <?php require_once("application/views/pageComp/MainMenu.php")?>
+    <?php require_once("application/views/pageComp/ExtraMenu.php")?>
         <section id="body"> 
           <aside id="left_bar" onClick="sliderbackward()"></aside>  
           <section id="movies">
               <?php
+                    //Display all movies
                     foreach($movies as $movie){
                         $ecq="\"";
                         print("<article id=$ecq"."movie".$movie['movie_id']."$ecq
@@ -24,4 +25,4 @@
           </section>
           <aside id="right_bar" onClick="sliderforward()"></aside>     	          	          
 		</section>
-    <?php require_once("application/views/EndPage.php")?>
+    <?php require_once("application/views/pageComp/EndPage.php")?>

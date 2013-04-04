@@ -6,6 +6,7 @@ class MovieDetail_Controller extends CI_Controller
 {
     function index()
     {
+        session_start();
         //if the book variable from the url is set
         if (isset($_GET['movie'])) {
             //resume the session
