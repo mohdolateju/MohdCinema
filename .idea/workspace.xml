@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_db.php" afterPath="$PROJECT_DIR$/application/errors/error_db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +48,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
+            <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-4.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_db.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="25" selection-start="1557" selection-end="1557" vertical-scroll-proportion="-16.538462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_general.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="25" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.77715355">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_php.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="53" selection-start="1777" selection-end="1777" vertical-scroll-proportion="-21.576923">
               <folding />
             </state>
           </provider>
@@ -70,9 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/loginvalidation_model.php" />
-        <option value="$PROJECT_DIR$/application/models/moviedetail_model.php" />
-        <option value="$PROJECT_DIR$/application/models/recentmovies_model.php" />
         <option value="$PROJECT_DIR$/application/models/registervalidation_model.php" />
         <option value="$PROJECT_DIR$/application/models/SearchMovies_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/EditCart_Controller.php" />
@@ -86,6 +113,9 @@
         <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_db.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_general.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_php.php" />
       </list>
     </option>
   </component>
@@ -174,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="errors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,7 +311,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,29 +404,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="953" selection-end="953" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="348" selection-end="348" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Register_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="349" selection-end="349" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <element signature="n#index#0;n#Register_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="7" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-8.5">
@@ -493,9 +500,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="25" selection-start="1557" selection-end="1557" vertical-scroll-proportion="-16.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
+        <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-4.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="53" selection-start="1777" selection-end="1777" vertical-scroll-proportion="-21.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="25" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.77715355">
           <folding />
         </state>
       </provider>
