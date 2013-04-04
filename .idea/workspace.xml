@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\controllers\Reservations_Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\models\editcart_model.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\EditCart.php.old" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\RegisterUser.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\Reservations.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\MohdCinema\application\views\index.php.old" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\BottomHeader.php" afterPath="$PROJECT_DIR$/application/views/pageComp/BottomHeader.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\EndPage.php" afterPath="$PROJECT_DIR$/application/views/pageComp/EndPage.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\ExtraMenu.php" afterPath="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\MainMenu.php" afterPath="$PROJECT_DIR$/application/views/pageComp/MainMenu.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\TopHeader.php" afterPath="$PROJECT_DIR$/application/views/pageComp/TopHeader.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\MohdCinema\application\views\UserButtons.php" afterPath="$PROJECT_DIR$/application/views/pageComp/UserButtons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/EditCart_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/EditCart_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Home_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/Home_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Register_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/Register_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_404.php" afterPath="$PROJECT_DIR$/application/errors/error_404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_db.php" afterPath="$PROJECT_DIR$/application/errors/error_db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/SearchMovies_Model.php" afterPath="$PROJECT_DIR$/application/models/SearchMovies_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/allmovies_model.php" afterPath="$PROJECT_DIR$/application/models/allmovies_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/home_model.php" afterPath="$PROJECT_DIR$/application/models/home_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/loginvalidation_model.php" afterPath="$PROJECT_DIR$/application/models/loginvalidation_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/moviedetail_model.php" afterPath="$PROJECT_DIR$/application/models/moviedetail_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/recentmovies_model.php" afterPath="$PROJECT_DIR$/application/models/recentmovies_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/registervalidation_model.php" afterPath="$PROJECT_DIR$/application/models/registervalidation_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/AllMovies.php" afterPath="$PROJECT_DIR$/application/views/AllMovies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/CheckOut.php" afterPath="$PROJECT_DIR$/application/views/CheckOut.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/EditCart.php" afterPath="$PROJECT_DIR$/application/views/EditCart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/Login.php" afterPath="$PROJECT_DIR$/application/views/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/MovieDetails.php" afterPath="$PROJECT_DIR$/application/views/MovieDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/RecentMovies.php" afterPath="$PROJECT_DIR$/application/views/RecentMovies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/Register.php" afterPath="$PROJECT_DIR$/application/views/Register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/SearchMovies.php" afterPath="$PROJECT_DIR$/application/views/SearchMovies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/UserDetails.php" afterPath="$PROJECT_DIR$/application/views/UserDetails.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index.php" afterPath="$PROJECT_DIR$/application/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +26,35 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -91,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/home_model.php" />
         <option value="$PROJECT_DIR$/application/models/loginvalidation_model.php" />
         <option value="$PROJECT_DIR$/application/models/moviedetail_model.php" />
         <option value="$PROJECT_DIR$/application/models/recentmovies_model.php" />
@@ -107,6 +85,7 @@
         <option value="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -178,6 +157,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,13 +281,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30151516" sideWeight="0.21672355" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23636363" sideWeight="0.6023891" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23636363" sideWeight="0.6023891" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39761093" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28560606" sideWeight="0.41267124" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -377,62 +374,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/SearchMovies_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="204" selection-end="204" vertical-scroll-proportion="0.25468165">
-          <folding>
-            <element signature="n#get_movie_by_title#0;n#SearchMovies_Model#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="167" selection-end="167" vertical-scroll-proportion="0.22284645">
-          <folding>
-            <element signature="n#index#0;n#AddtoCart_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AllMovies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="194" selection-end="194" vertical-scroll-proportion="0.22284645">
-          <folding>
-            <element signature="n#index#0;n#AllMovies_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="323" selection-end="323" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="40" selection-start="2265" selection-end="2265" vertical-scroll-proportion="-27.076923">
-          <folding>
-            <element signature="n#index#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-            <marker date="1365083384690" expanded="false" signature="1367:1415" placeholder="..." />
-            <marker date="1365083384690" expanded="true" signature="1417:1507" placeholder="..." />
-            <element signature="e#2112#2224#0" expanded="true" />
-            <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/LogOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.576923">
-          <folding>
-            <element signature="n#index#0;n#LogOut_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/MovieDetail_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="32" selection-start="953" selection-end="953" vertical-scroll-proportion="-15.038462">
@@ -513,6 +454,48 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="45" selection-start="399" selection-end="433" vertical-scroll-proportion="0.41385767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/smileys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/doctypes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/profiler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
           <folding />
         </state>
       </provider>
