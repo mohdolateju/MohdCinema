@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,22 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="116" selection-start="2483" selection-end="2483" vertical-scroll-proportion="-39.23077">
-              <folding>
-                <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-                <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="12" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="0.39766082">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="checkout_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0662768">
+            <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.3076923">
               <folding>
                 <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
                 <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
@@ -67,7 +63,10 @@
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1365179647409" expanded="true" signature="0:998" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
+                <marker date="1365179647409" expanded="true" signature="1000:1258" placeholder="&lt;IfModule !mod_rewrite.c&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -600,29 +599,29 @@
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="116" selection-start="2483" selection-end="2483" vertical-scroll-proportion="-39.23077">
           <folding>
-            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <marker date="1365179647409" expanded="true" signature="0:998" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
+            <marker date="1365179647409" expanded="true" signature="1000:1258" placeholder="&lt;IfModule !mod_rewrite.c&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0662768">
+        <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.3076923">
           <folding>
             <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
             <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
             <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
             <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="0.39766082">
+          <folding />
         </state>
       </provider>
     </entry>
