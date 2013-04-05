@@ -3,22 +3,22 @@
 class checkout_model extends CI_Model
 {
 //    /**Finds out if a voucher exists if it exists it results true if it does it returns true*/
-//    public function voucher_exist($voucher)
-//    {
-//        $this->load->database();
-//        $sql = "SELECT *
-//                FROM vouchernos
-//                WHERE voucher_no REGEXP ?
-//                ORDER BY movie_id";
-//        $query=$this->db->query($sql,$voucher);
-//        $vouchers = $query->result_array();
-//        if(empty($vouchers)){
-//            return false;
-//        }else{
-//            return true;
-//        }
-//
-//    }
+    public function voucher_exist($voucher)
+    {
+        $this->load->database();
+        $sql = "SELECT *
+                FROM vouchernos
+                WHERE voucher_no REGEXP ?
+                ORDER BY movie_id";
+        $query=$this->db->query($sql,$voucher);
+        $vouchers = $query->result_array();
+        if(empty($vouchers)){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
 //
 //    /**The the maximum seat number for a particular screen and Movie
 //     @param Movie ID, Screen Number*/
