@@ -18,8 +18,9 @@
                                      <span class=$ecq detail $ecq>Error:</span> $heading <br/><br/>
                                      <br/><br/>
                                      <br/><br/>
-                                     <span class=$ecq detail $ecq>Description:</span> $message
-                                      Feel Free to Return To Any Page by Following the Links on the Page
+                                     <span class=$ecq detail $ecq>Description:</span>
+                                      Sorry Seems This Page Is Missing, Don't Worry We'll Try to Find it.<br/>
+                                      Feel Free To Follow The Links To Other Pages
                                      <br/><br/>
 
                                </div>
@@ -30,5 +31,6 @@
         <noscript>Please Turn On Your Javascript To View The Content Of This Page</noscript>
     </section>
 </section>
-<?php require_once("application/views/pageComp/EndPage.php")?>
+<?php //$heading $message
+require_once("application/views/pageComp/EndPage.php")?>
 

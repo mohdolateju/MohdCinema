@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_404.php" afterPath="$PROJECT_DIR$/application/errors/error_404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_db.php" afterPath="$PROJECT_DIR$/application/errors/error_db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,44 +30,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+      <file leaf-file-name="error_db.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="7" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.8728972">
+            <state line="27" column="47" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.6179775">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginValidation_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
+      <file leaf-file-name="error_404.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-6.576923">
-              <folding>
-                <marker date="1365173648410" expanded="false" signature="1367:1415" placeholder="..." />
-                <marker date="1365173648410" expanded="true" signature="1417:1507" placeholder="..." />
-                <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllMovies.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/AllMovies.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="20" column="58" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-9.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckOut.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+      <file leaf-file-name="error_general.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
-              <folding>
-                <element signature="n#style#0;n#section#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="17" column="72" selection-start="965" selection-end="965" vertical-scroll-proportion="-8.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_php.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="89" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.5">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,13 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
-        <option value="$PROJECT_DIR$/application/errors/error_404.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/errors/error_db.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/application/errors/error_general.php" />
-        <option value="$PROJECT_DIR$/application/errors/error_php.php" />
         <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/searchmovies_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
@@ -101,6 +94,10 @@
         <option value="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/application/errors/error_404.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_general.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_php.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_db.php" />
       </list>
     </option>
   </component>
@@ -171,20 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -203,25 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="errors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,38 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/allmovies_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.31835207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1329588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AllMovies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="524" selection-end="524" vertical-scroll-proportion="0.5730337">
-          <folding>
-            <element signature="n#index#0;n#AllMovies_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="280" selection-end="280" vertical-scroll-proportion="-1.082397">
-          <folding>
-            <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/searchmovies_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.331384">
@@ -523,7 +456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
+        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="0.2284069">
           <folding>
             <element signature="n#style#0;n#section#0;n#section#0;n#!!top" expanded="true" />
           </folding>
@@ -539,7 +472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-6.576923">
+        <state line="34" column="13" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.32022473">
           <folding>
             <marker date="1365173648410" expanded="false" signature="1367:1415" placeholder="..." />
             <marker date="1365173648410" expanded="true" signature="1417:1507" placeholder="..." />
@@ -551,6 +484,34 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="7" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.8728972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="72" selection-start="965" selection-end="965" vertical-scroll-proportion="-8.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="89" selection-start="982" selection-end="982" vertical-scroll-proportion="-5.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-9.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.6179775">
           <folding />
         </state>
       </provider>
