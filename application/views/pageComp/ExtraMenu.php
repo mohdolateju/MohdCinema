@@ -2,7 +2,7 @@
     <?php
 
     //If type variable in the session is set that means a session has been created and user is logged in
-    if(isset($_SESSION['type'])){
+    if($_SESSION['type']=='customer'){
         static $totalquantity=0;
         static $totalcost=0;
         static $booknum=0;
