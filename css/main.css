@@ -85,12 +85,16 @@ nav a#currentpage{
 #body{
 	margin-left:17%;
 	margin-top:0.5%;
+    display: -moz-box;
 	display: -webkit-box;
+    display:box;
 	overflow:hidden;
 }
 
 #movies{
+    display: -moz-box;
 	display: -webkit-box;
+    display:box;
 	width:909px;
 	overflow:hidden;
     height:100%;
