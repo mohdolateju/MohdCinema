@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_404.php" afterPath="$PROJECT_DIR$/application/errors/error_404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_db.php" afterPath="$PROJECT_DIR$/application/errors/error_db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +72,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
+            <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-4.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="2" selection-start="605" selection-end="605" vertical-scroll-proportion="0.4456929">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/SearchMovies_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/EditCart_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/Home_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
@@ -117,6 +130,7 @@
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
         <option value="$PROJECT_DIR$/application/errors/error_db.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
       </list>
     </option>
   </component>
@@ -174,6 +188,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,11 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.2692308" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/UserDetails_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.35018727" />
@@ -457,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="104" selection-start="1277" selection-end="1277" vertical-scroll-proportion="-13.730769">
@@ -492,9 +508,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.23595506">
+        <state line="56" column="38" selection-start="2740" selection-end="2740" vertical-scroll-proportion="-4.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="2" selection-start="605" selection-end="605" vertical-scroll-proportion="0.4456929">
           <folding />
         </state>
       </provider>
