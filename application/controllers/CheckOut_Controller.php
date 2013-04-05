@@ -69,7 +69,7 @@ class CheckOut_Controller extends CI_Controller
 //           $data['vouchers']=$vouchers;
 //           $data['seatNo']=$seatNo;
 //           $data['screens']= $this->screens;
-           $this->load->view("Checkout");
+           $this->load->view("CheckOut");
 
        }
 
