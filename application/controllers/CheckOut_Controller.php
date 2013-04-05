@@ -4,9 +4,7 @@
  */
 class CheckOut_Controller extends CI_Controller
 {
-       //variables to hold screen numbers
-       private $screen;
-       private $screens=array();
+
 
         /**Default Controller Method*/
        function index(){

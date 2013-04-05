@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="12" selection-start="2687" selection-end="2687" vertical-scroll-proportion="-42.5">
+            <state line="60" column="116" selection-start="2483" selection-end="2483" vertical-scroll-proportion="-39.23077">
               <folding>
                 <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
                 <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
@@ -44,12 +43,12 @@
       <file leaf-file-name="checkout_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0662768">
+            <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0662768">
               <folding>
-                <element signature="n#voucher_exist#0;n#checkout_model2#0;n#!!top" expanded="true" />
-                <element signature="n#getMaxSeatNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
-                <element signature="n#getMaxScreenNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
-                <element signature="n#store_voucher#0;n#checkout_model2#0;n#!!top" expanded="true" />
+                <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
+                <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+                <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+                <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,9 +139,9 @@
         <option value="$PROJECT_DIR$/application/errors/error_general.php" />
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
         <option value="$PROJECT_DIR$/application/errors/error_db.php" />
-        <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
       </list>
     </option>
   </component>
@@ -568,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="12" selection-start="2687" selection-end="2687" vertical-scroll-proportion="-42.5">
-          <folding>
-            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -615,14 +604,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="116" selection-start="2483" selection-end="2483" vertical-scroll-proportion="-39.23077">
+          <folding>
+            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0662768">
+        <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0662768">
           <folding>
-            <element signature="n#voucher_exist#0;n#checkout_model2#0;n#!!top" expanded="true" />
-            <element signature="n#getMaxSeatNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
-            <element signature="n#getMaxScreenNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
-            <element signature="n#store_voucher#0;n#checkout_model2#0;n#!!top" expanded="true" />
+            <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
