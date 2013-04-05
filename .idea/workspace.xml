@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_db.php" afterPath="$PROJECT_DIR$/application/errors/error_db.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_db.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="error_db.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="104" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-8.115385">
+            <state line="20" column="87" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.36329588">
               <folding />
             </state>
           </provider>
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="52" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.26779026">
+            <state line="57" column="52" selection-start="2795" selection-end="2795" vertical-scroll-proportion="-5.5">
               <folding />
             </state>
           </provider>
@@ -128,9 +128,9 @@
         <option value="$PROJECT_DIR$/application/errors/error_general.php" />
         <option value="$PROJECT_DIR$/application/errors/error_404.php" />
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
-        <option value="$PROJECT_DIR$/application/errors/error_db.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/errors/error_db.php" />
       </list>
     </option>
   </component>
@@ -501,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="104" selection-start="1271" selection-end="1271" vertical-scroll-proportion="-8.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -524,7 +517,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="52" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.26779026">
+        <state line="57" column="52" selection-start="2795" selection-end="2795" vertical-scroll-proportion="-5.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="87" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.36329588">
           <folding />
         </state>
       </provider>
