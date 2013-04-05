@@ -30,20 +30,11 @@
       <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="619" selection-end="619" vertical-scroll-proportion="0.37037036">
+            <state line="100" column="13" selection-start="4106" selection-end="4106" vertical-scroll-proportion="3.1835206">
               <folding>
+                <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
                 <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-                <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddtoCart_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="53" selection-start="414" selection-end="454" vertical-scroll-proportion="-9.153846">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -51,31 +42,13 @@
       <file leaf-file-name="checkout_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="92" selection-end="92" vertical-scroll-proportion="-1.9615384">
+            <state line="57" column="92" selection-start="1834" selection-end="1834" vertical-scroll-proportion="-34.0">
               <folding>
                 <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
                 <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
                 <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
                 <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="-11.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,15 +66,6 @@
         <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error_db.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -588,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -630,16 +587,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="414" selection-end="454" vertical-scroll-proportion="-9.153846">
+        <state line="18" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="0.5964912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="92" selection-end="92" vertical-scroll-proportion="-1.9615384">
+        <state line="57" column="92" selection-start="1834" selection-end="1834" vertical-scroll-proportion="-34.0">
           <folding>
             <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
             <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
@@ -649,12 +606,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AddtoCart_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="53" selection-start="414" selection-end="454" vertical-scroll-proportion="0.4639376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="619" selection-end="619" vertical-scroll-proportion="0.37037036">
+        <state line="100" column="13" selection-start="4106" selection-end="4106" vertical-scroll-proportion="3.1835206">
           <folding>
+            <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
             <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
