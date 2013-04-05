@@ -53,9 +53,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'us-cdbr-east-03.cleardb.com';
-$db['default']['username'] = 'b3c8a11e8434c0';
-$db['default']['password'] = '898a9b54';
-$db['default']['database'] = 'heroku_1abf78838583f02';
+$db['default']['username'] = 'bc5d00724addb4';
+$db['default']['password'] = 'c8ada61f';
+$db['default']['database'] = 'heroku_b72216e43d9c836';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
