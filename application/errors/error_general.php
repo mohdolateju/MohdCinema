@@ -19,7 +19,7 @@
                                      <br/><br/>
                                      <br/><br/>
                                      <span class=$ecq detail $ecq>Description:</span>
-                                      Feel Free to Return To Any Page with by Following the Links
+                                      Feel Free to Return To Any Page by Following the Links on the Page
                                      <br/><br/>
 
                                </div>
