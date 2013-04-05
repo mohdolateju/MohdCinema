@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="42" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.165692">
+            <state line="63" column="42" selection-start="2561" selection-end="2561" vertical-scroll-proportion="-17.153847">
               <folding>
                 <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
                 <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
@@ -39,17 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="checkout_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-18.423077">
+            <state line="38" column="19" selection-start="1183" selection-end="1183" vertical-scroll-proportion="-0.72319686">
               <folding>
                 <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
                 <element signature="e#618#720#0" expanded="true" />
                 <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
-                <element signature="e#1107#1209#0" expanded="true" />
                 <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
-                <element signature="e#1549#1725#0" expanded="true" />
+                <element signature="e#1555#1731#0" expanded="true" />
                 <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/application/errors/error_db.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
+        <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
       </list>
     </option>
   </component>
@@ -419,7 +419,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -513,8 +513,13 @@
           <line>32</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/models/checkout_model.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="160" />
+      <option name="time" value="161" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -620,27 +625,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2651" selection-end="2651" vertical-scroll-proportion="-18.423077">
+        <state line="63" column="42" selection-start="2561" selection-end="2561" vertical-scroll-proportion="-17.153847">
           <folding>
-            <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
-            <element signature="e#618#720#0" expanded="true" />
-            <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
-            <element signature="e#1107#1209#0" expanded="true" />
-            <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
-            <element signature="e#1549#1725#0" expanded="true" />
-            <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="42" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.165692">
+        <state line="38" column="19" selection-start="1183" selection-end="1183" vertical-scroll-proportion="-0.72319686">
           <folding>
-            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="e#618#720#0" expanded="true" />
+            <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxScreenNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="e#1555#1731#0" expanded="true" />
+            <element signature="n#store_voucher#0;n#checkout_model#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
