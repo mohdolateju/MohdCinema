@@ -3,7 +3,7 @@
     <?php require_once("application/views/pageComp/BottomHeader.php")?>
     <?php require_once("application/views/pageComp/MainMenu.php")?>
     <?php require_once("application/views/pageComp/ExtraMenu.php")?>
-        <section id="body"> 
+        <section id="body"  style="min-height: 450px;">
           <aside id="left_bar" onClick="sliderbackward()"></aside>  
           <section id="movies">
               <?php
