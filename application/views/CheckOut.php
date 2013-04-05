@@ -5,7 +5,7 @@
 <?php require_once("application/views/pageComp/ExtraMenu.php")?>
         <section id="body">
 
-            <section id="movies" style="display: block;">
+            <section id="movies" style="display: block;min-height: 450px;">
                 <div style="padding: 3%;text-align: center;background-color: gray;margin: 2%;">You have Checked Out, Have A Wonderful Experience.
                                          Print or Take note of the Ticket Number(s) To Enter the Cinema.
                     <input type="button" class="button" value="Print" onclick="window.print()" />
