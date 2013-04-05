@@ -30,8 +30,7 @@ class checkout_model extends CI_Model
                 WHERE movie_id=?
                 AND screen_no=?";
         $query=$this->db->query($sql,array($movie_id,$screen));
-        $result = $query->result_array();
-        $maxSeatNo=$result[0];
+        $maxSeatNo = $query->row_array();
         return $maxSeatNo["max(seat_no)"];
     }
 
@@ -46,11 +45,8 @@ class checkout_model extends CI_Model
                 FROM reservations
                 WHERE movie_id=?";
         $query=$this->db->query($sql,$movie_id);
-        $result = $query->result_array();
-        $maxSeatNo=$result[0];
+        $maxSeatNo = $query->row_array();
         return $maxSeatNo["max(screen_no)"];
-
-
     }
 
     /**Creates A New voucher in the voucher_nos and reservations database

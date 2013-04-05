@@ -15,7 +15,7 @@
 |
 */
 
-//$config['base_url']	= 'http://localhost/MohammedsBookstore/';
+//$config['base_url']	= '';
 $config['base_url']	= 'http://mohdcinema.herokuapp.com/';
 
 /*
