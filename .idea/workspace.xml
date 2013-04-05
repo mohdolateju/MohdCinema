@@ -30,8 +30,11 @@
       <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="0.39766082">
-              <folding />
+            <state line="95" column="31" selection-start="3885" selection-end="3885" vertical-scroll-proportion="3.148148">
+              <folding>
+                <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+                <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -620,8 +623,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="0.39766082">
-          <folding />
+        <state line="95" column="31" selection-start="3885" selection-end="3885" vertical-scroll-proportion="3.148148">
+          <folding>
+            <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
