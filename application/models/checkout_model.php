@@ -19,22 +19,22 @@ class checkout_model extends CI_Model
         }
 
     }
-//
-//    /**The the maximum seat number for a particular screen and Movie
-//     @param Movie ID, Screen Number*/
-//    public function getMaxSeatNo($movie_id,$screen)
-//    {
-//        $this->load->database();
-//        $sql = "SELECT max(seat_no)
-//                FROM reservations
-//                WHERE movie_id=?
-//                AND screen_no=?";
-//        $query=$this->db->query($sql,array($movie_id,$screen));
-//        $maxSeatNo = $query->result_array()[0];
-//        return $maxSeatNo["max(seat_no)"];
-//    }
-//
-//
+
+    /**The the maximum seat number for a particular screen and Movie
+     @param Movie ID, Screen Number*/
+    public function getMaxSeatNo($movie_id,$screen)
+    {
+        $this->load->database();
+        $sql = "SELECT max(seat_no)
+                FROM reservations
+                WHERE movie_id=?
+                AND screen_no=?";
+        $query=$this->db->query($sql,array($movie_id,$screen));
+        $maxSeatNo = $query->result_array()[0];
+        return $maxSeatNo["max(seat_no)"];
+    }
+
+
 //    /**The the maximum seat number for a particular movie
 //    @param Movie ID
 //    @return  screen number*/

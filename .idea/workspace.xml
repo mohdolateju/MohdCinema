@@ -43,8 +43,12 @@
       <file leaf-file-name="checkout_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="431" selection-end="431" vertical-scroll-proportion="0.39766082">
-              <folding />
+            <state line="21" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.2319688">
+              <folding>
+                <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
+                <element signature="e#618#720#0" expanded="true" />
+                <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -620,8 +624,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="431" selection-end="431" vertical-scroll-proportion="0.39766082">
-          <folding />
+        <state line="21" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.2319688">
+          <folding>
+            <element signature="n#voucher_exist#0;n#checkout_model#0;n#!!top" expanded="true" />
+            <element signature="e#618#720#0" expanded="true" />
+            <element signature="n#getMaxSeatNo#0;n#checkout_model#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
