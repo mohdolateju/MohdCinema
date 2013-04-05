@@ -1,6 +1,6 @@
 <?php
 /**Model used to CheckOut and Reserve Movies*/
-class Checkout_Model extends CI_Model
+class checkout_model extends CI_Model
 {
     /**Finds out if a voucher exists if it exists it results true if it does it returns true*/
     public function voucher_exist($voucher)
