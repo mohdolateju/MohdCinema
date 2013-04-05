@@ -15,10 +15,10 @@
                                     width=$ecq 294 $ecq height=$ecq 452 $ecq/>
 
                                <div style=$ecq width:600px; padding-left: 2%; padding-top: 2%;text-align: center;$ecq>
-                                     <span class=$ecq detail $ecq>Error:</span>  <br/><br/>
+                                     <span class=$ecq detail $ecq>Error: $heading</span>  <br/><br/>
                                      <br/><br/>
                                      <br/><br/>
-                                     <span class=$ecq detail $ecq>Description:</span>
+                                     <span class=$ecq detail $ecq>Description: $message</span>
                                       Feel Free to Return To Any Page by Following the Links on the Page
                                      <br/><br/>
 
@@ -30,5 +30,4 @@
         <noscript>Please Turn On Your Javascript To View The Content Of This Page</noscript>
     </section>
 </section>
-<?php //$heading $message
-require_once("application/views/pageComp/EndPage.php")?>
+<?php require_once("application/views/pageComp/EndPage.php")?>

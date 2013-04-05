@@ -15,11 +15,11 @@
                                     width=$ecq 294 $ecq height=$ecq 452 $ecq/>
 
                                <div style=$ecq width:600px; padding-left: 2%; padding-top: 2%;text-align: center;$ecq>
-                                     <span class=$ecq detail $ecq>Error:</span>  <br/><br/>
-                                     <span class=$ecq detail $ecq>Severity:</span>  <br/><br/>
-                                     <span class=$ecq detail $ecq>FilePath:</span>  <br/><br/>
-                                     <span class=$ecq detail $ecq>Line Number:</span>  <br/><br/>
-                                     <span class=$ecq detail $ecq>Description:</span>
+                                     <span class=$ecq detail $ecq>Error: </span> $heading <br/><br/>
+                                     <span class=$ecq detail $ecq>Severity:</span>$severity  <br/><br/>
+                                     <span class=$ecq detail $ecq>FilePath:</span>$filepath  <br/><br/>
+                                     <span class=$ecq detail $ecq>Line Number:</span> $line <br/><br/>
+                                     <span class=$ecq detail $ecq>Description:</span>$message
                                       Feel Free to Return To Any Page by Following the Links on the Page
                                      <br/><br/>
 
