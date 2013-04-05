@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/checkout_model.php" afterPath="$PROJECT_DIR$/application/models/checkout_model.php" />
     </list>
@@ -31,9 +32,10 @@
       <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="280" selection-end="280" vertical-scroll-proportion="2.6153846">
+            <state line="65" column="12" selection-start="2687" selection-end="2687" vertical-scroll-proportion="-42.5">
               <folding>
-                <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+                <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+                <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,34 +44,68 @@
       <file leaf-file-name="checkout_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.63670415">
+            <state line="2" column="21" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0662768">
+              <folding>
+                <element signature="n#voucher_exist#0;n#checkout_model2#0;n#!!top" expanded="true" />
+                <element signature="n#getMaxSeatNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
+                <element signature="n#getMaxScreenNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
+                <element signature="n#store_voucher#0;n#checkout_model2#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/home_model.php">
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginvalidation_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/loginvalidation_model.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="116.61539">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moviedetail_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/moviedetail_model.php">
+      <file leaf-file-name="SearchMovies.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/SearchMovies.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <marker date="1364988213148" expanded="false" signature="2718:2722" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOut.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -94,8 +130,6 @@
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/searchmovies_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" />
@@ -106,6 +140,8 @@
         <option value="$PROJECT_DIR$/application/errors/error_general.php" />
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
         <option value="$PROJECT_DIR$/application/errors/error_db.php" />
+        <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
       </list>
     </option>
@@ -232,6 +268,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MohdCinema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,87 +503,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/pageComp/UserButtons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="192" selection-end="226" vertical-scroll-proportion="0.15917604">
-          <folding>
-            <marker date="1365080761659" expanded="true" signature="450:817" placeholder="..." />
-            <marker date="1365080761659" expanded="false" signature="738:749" placeholder="..." />
-            <marker date="1365080761659" expanded="true" signature="1057:1314" placeholder="..." />
-            <marker date="1365080761659" expanded="false" signature="1238:1249" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <marker date="1365173191047" expanded="true" signature="1020:1439" placeholder="..." />
-            <marker date="1365173191047" expanded="false" signature="1055:1093" placeholder="..." />
-            <marker date="1365173191047" expanded="true" signature="1094:1196" placeholder="..." />
-            <marker date="1365173191047" expanded="true" signature="1536:1660" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.63670415">
-          <folding>
-            <marker date="1365173551050" expanded="false" signature="393:427" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="0.2284069">
-          <folding>
-            <element signature="n#style#0;n#section#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/AllMovies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.32022473">
-          <folding>
-            <marker date="1365173648410" expanded="false" signature="1367:1415" placeholder="..." />
-            <marker date="1365173648410" expanded="true" signature="1417:1507" placeholder="..." />
-            <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="7" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.8728972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="72" selection-start="965" selection-end="965" vertical-scroll-proportion="0.39513108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="89" selection-start="982" selection-end="982" vertical-scroll-proportion="0.26779026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="58" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.4588015">
@@ -523,15 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="86" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.39513108">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="280" selection-end="280" vertical-scroll-proportion="2.6153846">
-          <folding>
-            <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +538,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/EditCart_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-18.307692">
+          <folding>
+            <marker date="1365173551050" expanded="false" signature="393:427" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="12" selection-start="2687" selection-end="2687" vertical-scroll-proportion="-42.5">
+          <folding>
+            <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="116.61539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/SearchMovies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1364988213148" expanded="false" signature="2718:2722" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.63670415">
-          <folding />
+        <state line="2" column="21" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0662768">
+          <folding>
+            <element signature="n#voucher_exist#0;n#checkout_model2#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxSeatNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
+            <element signature="n#getMaxScreenNo#0;n#checkout_model2#0;n#!!top" expanded="true" />
+            <element signature="n#store_voucher#0;n#checkout_model2#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
