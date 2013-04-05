@@ -11,16 +11,16 @@ class CheckOut_Controller extends CI_Controller
         /**Default Controller Method*/
        function index(){
            //max number of seat in one cinema
-           define("MAXSEATNO",30);
+           //define("MAXSEATNO",30);
 
            //array to load the selected movies
            $selectedtimes=array();
 
            //resume session and load CheckOut page
-           session_start();
+           //session_start();
 
            //load model
-           $this->load->model("checkout_model");
+           //$this->load->model("checkout_model");
 
            //create vouchers and seatNo Arrays
            $vouchers=array();
@@ -65,11 +65,11 @@ class CheckOut_Controller extends CI_Controller
 //               }
 //           }
            //add all generated information to the CheckOut page
-           $data['selectedtimes']=$selectedtimes;
-           $data['vouchers']=$vouchers;
-           $data['seatNo']=$seatNo;
-           $data['screens']= $this->screens;
-           $this->load->view("Checkout",$data);
+//           $data['selectedtimes']=$selectedtimes;
+//           $data['vouchers']=$vouchers;
+//           $data['seatNo']=$seatNo;
+//           $data['screens']= $this->screens;
+           $this->load->view("Checkout");
 
        }
 

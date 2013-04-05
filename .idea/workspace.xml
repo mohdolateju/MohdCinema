@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="770" selection-end="2759" vertical-scroll-proportion="1.7953216">
+            <state line="71" column="39" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.17153996">
               <folding>
                 <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
                 <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
@@ -426,7 +425,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -636,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="770" selection-end="2759" vertical-scroll-proportion="1.7953216">
+        <state line="71" column="39" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.17153996">
           <folding>
             <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
             <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
