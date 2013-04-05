@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
@@ -27,14 +28,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="31" selection-start="3885" selection-end="3885" vertical-scroll-proportion="3.148148">
+            <state line="72" column="33" selection-start="3006" selection-end="3006" vertical-scroll-proportion="-15.423077">
               <folding>
-                <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
                 <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+                <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOut.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-0.87">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,19 +102,16 @@
       <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1365179647409" expanded="true" signature="0:998" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
-                <marker date="1365179647409" expanded="true" signature="1000:1258" placeholder="&lt;IfModule !mod_rewrite.c&gt;" />
-              </folding>
+            <state line="2" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="constants.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/constants.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="116.61539">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,24 +124,6 @@
               <folding>
                 <marker date="1364988213148" expanded="false" signature="2718:2722" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckOut.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,7 +145,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/models/searchmovies_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
@@ -141,8 +156,9 @@
         <option value="$PROJECT_DIR$/application/errors/error_general.php" />
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
         <option value="$PROJECT_DIR$/application/errors/error_db.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/models/checkout_model.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
       </list>
     </option>
@@ -504,27 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="58" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.4588015">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="86" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.39513108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/home_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/loginvalidation_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -555,20 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -592,23 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1365179647409" expanded="true" signature="0:998" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
-            <marker date="1365179647409" expanded="true" signature="1000:1258" placeholder="&lt;IfModule !mod_rewrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/checkout_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="73" selection-end="73" vertical-scroll-proportion="-1.3076923">
@@ -623,11 +587,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="31" selection-start="3885" selection-end="3885" vertical-scroll-proportion="3.148148">
+        <state line="72" column="33" selection-start="3006" selection-end="3006" vertical-scroll-proportion="-15.423077">
           <folding>
-            <element signature="n#index#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
             <element signature="n#generate_voucher#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
+            <element signature="n#generate_setno#0;n#CheckOut_Controller#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="599" selection-end="599" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="-0.87">
+          <folding />
         </state>
       </provider>
     </entry>

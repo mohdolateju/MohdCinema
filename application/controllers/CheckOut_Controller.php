@@ -11,7 +11,7 @@ class CheckOut_Controller extends CI_Controller
         /**Default Controller Method*/
        function index(){
            //max number of seat in one cinema
-           //define("MAXSEATNO",30);
+           define("MAXSEATNO",30);
 
            //array to load the selected movies
            $selectedtimes=array();
@@ -69,7 +69,8 @@ class CheckOut_Controller extends CI_Controller
            $data['vouchers']=$vouchers;
            $data['seatNo']=$seatNo;
            $data['screens']= $this->screens;
-           $this->load->view("CheckOut",$data);
+           //$this->load->view("CheckOut",$data);
+           print($this->screens);
        }
 
         //Generate a random voucher
@@ -84,7 +85,7 @@ class CheckOut_Controller extends CI_Controller
             $seatNo=$this->checkout_model->getMaxSeatNo($movie_id,$this->screen);
 
             //if screen no is less that maximum amount add 1 to it and return the value
-            if($seatNo<30){
+            if($seatNo<MAXSEATNO){
                 return $seatNo+1;
             }
             //if non exists make the first one
@@ -93,7 +94,7 @@ class CheckOut_Controller extends CI_Controller
             }
             //if seat number is equal to or greater that the maximum allowed seat no
             //increase the screen number and set the seat no to 1
-            else if($seatNo>=30){
+            else if($seatNo>=MAXSEATNO){
                 $this->screen+=1;
                 return 1;
             }
