@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_general.php" afterPath="$PROJECT_DIR$/application/errors/error_general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/errors/error_php.php" afterPath="$PROJECT_DIR$/application/errors/error_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +46,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_php.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="error_php.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.60299623">
+            <state line="26" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-12.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchmovies_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/searchmovies_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllMovies_Controller.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/AllMovies_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="2" selection-start="524" selection-end="524" vertical-scroll-proportion="0.5964912">
+              <folding>
+                <element signature="n#index#0;n#AllMovies_Controller#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allmovies_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/allmovies_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllMovies.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/AllMovies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOut.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.6923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOut_Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -71,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/Home_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/RecentMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/Register_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
@@ -87,6 +149,9 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/errors/error_general.php" />
         <option value="$PROJECT_DIR$/application/errors/error_php.php" />
+        <option value="$PROJECT_DIR$/application/controllers/CheckOut_Controller.php" />
+        <option value="$PROJECT_DIR$/application/models/searchmovies_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
       </list>
     </option>
   </component>
@@ -175,7 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,46 +440,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="280" selection-end="280" vertical-scroll-proportion="-1.3876405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.90019196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/EditCart_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.22284645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="399" selection-end="433" vertical-scroll-proportion="0.41385767" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/smileys.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/doctypes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/profiler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/errors/error_404.php">
@@ -468,8 +496,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.60299623">
+        <state line="26" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-12.384615">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/allmovies_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/AllMovies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/CheckOut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.6923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/CheckOut_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/searchmovies_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AllMovies_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="2" selection-start="524" selection-end="524" vertical-scroll-proportion="0.5964912">
+          <folding>
+            <element signature="n#index#0;n#AllMovies_Controller#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

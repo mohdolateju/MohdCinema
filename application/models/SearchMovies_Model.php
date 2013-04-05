@@ -2,7 +2,7 @@
 /**
  * Used to Search For Movies
  */
-class SearchMovies_Model extends CI_Model
+class searchmovies_model extends CI_Model
 {
     /**Gets the movies that match any title specified in the parameter
      * @param Movie title

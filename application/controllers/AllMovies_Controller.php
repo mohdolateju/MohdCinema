@@ -13,7 +13,7 @@ class AllMovies_Controller extends CI_Controller{
        //get all movies from database
        $data['movies']=$this->allmovies_model->get_all_movies();
        //load movies into the movies
-       $this->load->view("allMovies",$data);
+       $this->load->view("AllMovies",$data);
     }
 }
 ?>
