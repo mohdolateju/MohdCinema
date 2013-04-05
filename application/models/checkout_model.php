@@ -30,7 +30,8 @@ class checkout_model extends CI_Model
                 WHERE movie_id=?
                 AND screen_no=?";
         $query=$this->db->query($sql,array($movie_id,$screen));
-        $maxSeatNo = $query->row_array();
+        $result = $query->result_array();
+        $maxSeatNo=$result[0];
         return $maxSeatNo["max(seat_no)"];
     }
 
@@ -45,8 +46,8 @@ class checkout_model extends CI_Model
                 FROM reservations
                 WHERE movie_id=?";
         $query=$this->db->query($sql,$movie_id);
-        $maxSeatNo = $query->row_array();
-
+        $result = $query->result_array();
+        $maxSeatNo=$result[0];
         return $maxSeatNo["max(screen_no)"];
 
 
