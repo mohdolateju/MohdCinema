@@ -20,7 +20,8 @@ class CheckOut_Controller extends CI_Controller
            //session_start();
 
            //load model
-           $this->load->model("checkout_model");
+           $this->load->model("moviedetail_model");
+           //$this->load->model("checkout_model");
 
            //create vouchers and seatNo Arrays
            $vouchers=array();
