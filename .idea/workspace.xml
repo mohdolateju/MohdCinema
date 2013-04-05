@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" afterPath="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,15 +45,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtraMenu.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ExtraMenu.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="0.38202247">
+            <state line="12" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="-7.8461537">
               <folding>
                 <marker date="1365173191047" expanded="true" signature="1020:1439" placeholder="..." />
                 <marker date="1365173191047" expanded="false" signature="1055:1093" placeholder="..." />
                 <marker date="1365173191047" expanded="true" signature="1094:1196" placeholder="..." />
                 <marker date="1365173191047" expanded="true" signature="1536:1660" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginValidation_Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.576923">
+              <folding>
+                <element signature="n#index#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
+                <marker date="1365083384690" expanded="false" signature="1367:1415" placeholder="..." />
+                <marker date="1365083384690" expanded="true" signature="1417:1507" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchMovies_Controller.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="17" selection-start="952" selection-end="952" vertical-scroll-proportion="0.331384">
+              <folding>
+                <marker date="1365173355748" expanded="false" signature="393:427" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -109,7 +133,6 @@
       <list>
         <option value="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
-        <option value="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
         <option value="$PROJECT_DIR$/application/errors/error_404.php" />
@@ -123,6 +146,7 @@
         <option value="$PROJECT_DIR$/application/models/searchmovies_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" />
+        <option value="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
       </list>
     </option>
   </component>
@@ -211,29 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MohdCinema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pageComp" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,20 +435,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/errors/error_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="87" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-7.4615383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/errors/error_general.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-17.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/errors/error_php.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-12.384615">
@@ -549,12 +537,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="0.38202247">
+        <state line="12" column="16" selection-start="416" selection-end="416" vertical-scroll-proportion="-7.8461537">
           <folding>
             <marker date="1365173191047" expanded="true" signature="1020:1439" placeholder="..." />
             <marker date="1365173191047" expanded="false" signature="1055:1093" placeholder="..." />
             <marker date="1365173191047" expanded="true" signature="1094:1196" placeholder="..." />
             <marker date="1365173191047" expanded="true" signature="1536:1660" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <element signature="n#index#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
+            <marker date="1365083384690" expanded="false" signature="1367:1415" placeholder="..." />
+            <marker date="1365083384690" expanded="true" signature="1417:1507" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="952" selection-end="952" vertical-scroll-proportion="0.331384">
+          <folding>
+            <marker date="1365173355748" expanded="false" signature="393:427" placeholder="..." />
           </folding>
         </state>
       </provider>

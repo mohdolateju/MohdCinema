@@ -15,8 +15,6 @@ class SearchMovies_Controller extends CI_Controller
 
             //Loading Controller Defined Model SearchResult_Model
 
-            //resumes session
-            session_start();
             $this->load->model("SearchMovies_Model");
 
             //If Search FormValiation Fails return to SearchBooks page and report the error
