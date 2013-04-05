@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79c1f19-b6ef-4aef-ae6b-28d269e87428" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" afterPath="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
     </list>
     <ignored path="MohammedsBookstore.iws" />
@@ -62,11 +63,11 @@
       <file leaf-file-name="LoginValidation_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.576923">
+            <state line="44" column="8" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.423077">
               <folding>
-                <element signature="n#index#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-                <marker date="1365083384690" expanded="false" signature="1367:1415" placeholder="..." />
-                <marker date="1365083384690" expanded="true" signature="1417:1507" placeholder="..." />
+                <marker date="1365173648410" expanded="false" signature="1367:1415" placeholder="..." />
+                <marker date="1365173648410" expanded="true" signature="1417:1507" placeholder="..." />
+                <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,9 +76,9 @@
       <file leaf-file-name="SearchMovies_Controller.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="952" selection-end="952" vertical-scroll-proportion="0.331384">
+            <state line="35" column="21" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.69590646">
               <folding>
-                <marker date="1365173355748" expanded="false" signature="393:427" placeholder="..." />
+                <marker date="1365173551050" expanded="false" signature="393:427" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -131,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/RegisterValidation_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/RemoveItem_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/UserDetails_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/CheckOut.php" />
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/application/controllers/AllMovies_Controller.php" />
         <option value="$PROJECT_DIR$/application/views/pageComp/ExtraMenu.php" />
         <option value="$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php" />
+        <option value="$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php" />
       </list>
     </option>
   </component>
@@ -341,7 +342,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -549,20 +550,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/LoginValidation_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.576923">
+        <state line="44" column="8" selection-start="2111" selection-end="2111" vertical-scroll-proportion="-18.423077">
           <folding>
-            <element signature="n#index#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
-            <marker date="1365083384690" expanded="false" signature="1367:1415" placeholder="..." />
-            <marker date="1365083384690" expanded="true" signature="1417:1507" placeholder="..." />
+            <marker date="1365173648410" expanded="false" signature="1367:1415" placeholder="..." />
+            <marker date="1365173648410" expanded="true" signature="1417:1507" placeholder="..." />
+            <element signature="n#get_userdetails#0;n#LoginValidation_Controller#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/SearchMovies_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="952" selection-end="952" vertical-scroll-proportion="0.331384">
+        <state line="35" column="21" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.69590646">
           <folding>
-            <marker date="1365173355748" expanded="false" signature="393:427" placeholder="..." />
+            <marker date="1365173551050" expanded="false" signature="393:427" placeholder="..." />
           </folding>
         </state>
       </provider>

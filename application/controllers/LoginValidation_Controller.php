@@ -32,7 +32,7 @@ class LoginValidation_Controller extends CI_Controller{
             $data['message']='<span style=\"color: white; background-color: red;padding:0.3%\">
                                     Username and Password combination is incorrect</span>';
             $this->load->view('Login',$data);
-        }
+        }else{
         //If User is a costumer send user information to  User Details page and create a new session with userid and type
             session_start();
             $_SESSION['customer_id']= $userdata['customer_id'];
@@ -42,6 +42,7 @@ class LoginValidation_Controller extends CI_Controller{
             $_SESSION['username']= $userdata['username'];
             $_SESSION['type']="customer";
             $this->load->view('UserDetails');
+        }
 
 
 
