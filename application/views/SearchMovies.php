@@ -5,7 +5,7 @@
     <?php require_once("application/views/pageComp/ExtraMenu.php")?>
     <?php $this->load->library('form_validation');?>
     <?php $this->load->helper('url');?>
-        <section id="body" style="min-height: 500px;display: block;">
+        <section id="body" style="display: block;">
 
             <section id="searchform">
                 <form style="padding-left: 25%;" action="SearchMovies" method="post">

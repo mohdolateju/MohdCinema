@@ -3,7 +3,7 @@
     <?php require_once("application/views/pageComp/BottomHeader.php")?>
     <?php require_once("application/views/pageComp/MainMenu.php")?>
     <?php require_once("application/views/pageComp/ExtraMenu.php")?>
-        <section id="body" style="margin-top: 2%;margin-left: 40%;min-height: 450px;display: block;">
+        <section id="body" style="margin-top: 2%;margin-left: 40%;display: block;">
             <?php
             //Display Success Message if username variable is set in the controller
             if(!empty($username)) {

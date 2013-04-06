@@ -3,7 +3,7 @@
     <?php require_once("application/views/pageComp/BottomHeader.php")?>
     <?php require_once("application/views/pageComp/MainMenu.php")?>
     <?php require_once("application/views/pageComp/ExtraMenu.php")?>
-        <section id="body" style="min-height: 450px;">
+        <section id="body">
             <?php
 
             $cartNo=0;

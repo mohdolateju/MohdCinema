@@ -3,7 +3,7 @@
     <?php require_once("application/views/pageComp/BottomHeader.php")?>
     <?php require_once("application/views/pageComp/MainMenu.php")?>
     <?php require_once("application/views/pageComp/ExtraMenu.php")?>
-        <section id="body" style="margin-top: 2%;margin-left: 35%;min-height: 450px;">
+        <section id="body" style="margin-top: 2%;margin-left: 35%;">
             <form name="register" method="post" action="RegisterAction">
                 <table >
                     <tr>
